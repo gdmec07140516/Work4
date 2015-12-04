@@ -11,10 +11,10 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class AddContactsActivity extends Activity {
+    public class AddContactsActivity extends Activity {
 
-    private EditText nameEt,mobileEt,qqET,danweiET,addressEt;
-    @Override
+        private EditText nameEt,mobileEt,qqET,danweiET,addressEt;
+        @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.edit);
